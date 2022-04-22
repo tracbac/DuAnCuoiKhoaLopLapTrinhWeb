@@ -1,0 +1,75 @@
+.rong {
+    height: 50px;
+    width: 100%;
+  }
+
+.logout{  
+  display: none;
+    top: 8%;
+    position: absolute;
+    left: 87%;
+    color: whitesmoke;
+    text-align: center;
+    background-color: #7f8c8d; 
+    margin: auto;
+    width: 185px;
+    height:200px;
+    border: 1.5px solid #000000;
+    border-radius: 14%;
+    font-size: 16px;
+}.logout  > img{
+    height: 50px;
+    width: 50px;
+} button{
+    background-color: #2f3640;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  height: 25px;
+  color: white;
+  font-size: 16px;
+  display: block;
+  margin: auto;
+    
+}
+button:hover{
+    transition: ease-in 0.35s;
+    -moz-transition: ease-in 0.35s;
+    -webkit-transition: ease-in 0.35s;
+    background: #353b48;
+  }
+  .anh{
+      margin: auto;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+      left: 95%;
+      background-color: #535c68;
+      display: flex;
+  }
+  .anh>img{
+    margin: auto;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+  }
+  #btn1{
+    background-color: #1e272e;
+  border: none;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  color: white;
+  font-size: 8px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  border-radius: 100%;
+  border: 2px solid #ffff;
+}
+#btn1:hover{
+    transition: ease-in 0.35s;
+    -moz-transition: ease-in 0.35s;
+    -webkit-transition: ease-in 0.35s;
+    background: #353b48;
+  }

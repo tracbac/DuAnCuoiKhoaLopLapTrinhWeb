@@ -1,0 +1,118 @@
+body {
+  background: url(https://images.squarespace-cdn.com/content/v1/593614a03e00beb2f0d520ad/1531314666006-IL0RJQMQLYQ2G3DQER95/fallback.jpg?format=1000w);
+  background-size: 100%;
+  font-family: Montserrat;
+}
+.rong {
+  height: 50px;
+  width: 100%;
+}
+.board {
+  width: 600px;
+  flex-wrap: wrap;
+ display: flex;
+  height: 120px;
+  margin: auto;
+  background-color: #95a5a6;
+  
+}
+.box {
+  font-size: 18px;
+  display: flex;
+  width:300px;
+  height: 70px;
+  background-color: #dee8e9;
+  border-left: 3px solid #2c3e50;
+}
+.mota{
+  width: 200px;
+  display: block;
+  margin: auto;
+ font-size: 20px;
+}
+.team{
+  align-items: center;
+  padding: 5px;
+ text-align: center;
+  width: 60px;
+  height: 60px;
+}
+h3{
+  margin: auto;
+}
+.team>img{
+  width: 60px;
+  height: 60px;
+}
+.box2{
+  margin: auto;
+  padding: 20px;
+  width: 600px;
+  height: 400px;
+  background-color: #2d3436;
+  font-size: 14px;
+  display: flex;
+  color: #fff;
+  flex-wrap: wrap;
+  /* background-color: #dee8e9; */
+  
+
+}
+.vong{
+  font-size: 12px;
+  width: 130px;
+  height: 30px;
+ margin: auto;
+  background: #4b6584;
+  text-align: center;
+    position: absolute;
+    left: 20%;
+}
+
+.root > li {text-align: center;
+  list-style: none;
+  float: left;
+}
+.root > li > a {text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: 0px 15px 0 10px;
+  line-height: 30px;
+  display: block;
+}
+.root > li > a:hover {
+ 
+  transition: ease-in 0.35s;
+  -moz-transition: ease-in 0.35s;
+  -webkit-transition: ease-in 0.35s;
+}
+.con {
+  width: 130px;
+  min-height: auto;
+  background-color: #3d3d3d;
+  display: none;
+  position: absolute;
+}
+.con > li {
+  list-style: none;
+}
+.con > li > a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid #bbd8f2;
+  line-height: 30px;
+  
+}
+.root > li:hover .con {
+  display: block;
+  transition: ease-out 0.35s;
+  -moz-transition: ease-out 0.35s;
+  -webkit-transition: ease-out 0.35s;
+}
+.con > li > a:hover {
+  transition: ease-in 0.35s;
+  -moz-transition: ease-in 0.35s;
+  -webkit-transition: ease-in 0.35s;
+  background: #596275;
+}
